@@ -1,392 +1,457 @@
 <!DOCTYPE html>
-<html class="h-full">
-
+<html lang="en" class="h-full">
 <head>
+	<base target="_top">
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<script src="https://cdn.tailwindcss.com"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1 minimum-scale=1">
+	<meta name="description" content="Contribute to the most impactful education projects in Africa.">
+	<meta property="og:title" content="GoBe - Africa's Hub for education innovators!" />
+	<meta property="og:url" content="https://solaszn.github.io/gobe" />
+	<meta property="og:image" content="https://res.cloudinary.com/dex7kx47s/image/upload/v1682613811/og_image_zuinz1.png" />
+	<meta property="og:type" content="website" />
+	<meta property="og:description" content="Contribute to the most impactful education projects in Africa." />
+	<meta property="og:locale" content="en_GB" />
+	<script src="https://cdn.tailwindcss.com/3.3.1"></script>
 	<title>Home - GoBe Educator</title>
 	<link rel="icon" type="image/x-icon" href="images/favicon.svg">
+	<style>
+		@supports (-webkit-touch-callout: none) {
+			body {
+				height: -webkit-fill-available;
+			}
+			html {
+				height: -webkit-fill-available;
+			}
+		}
+	</style>
 </head>
+<body class="h-full overflow-x-hidden">
+	<div class="overflow-x-hidden bg-white h-full">
+	  <div class="flex justify-center pt-10 px-28">
+	    <div class="flex justify-center px-96">
+	      <div class="items-center flex justify-center px-9 py-2">
+	        <div class="bg-center bg-cover h-6 w-28">
+	        	<img alt="GoBe Primary Logo" src="gobe.svg">
+	        </div>
+	      </div>
+	    </div>
+	  </div>
+	  <!-- HERO	-->
+	  <div class="items-center bg-white flex justify-center px-4 lg:py-24 py-12">
+	    <div class="items-center flex flex-col w-11/12 justify-between gap-12 pb-6 sm:pb-0 lg:flex-row max-w-[1440px]">
+	      <div class="items-center flex w-auto max-w-2xl">
+	        <div class="space-y-8">
+	          <div class="pr-7">
+	            <div>
+	              <div
+	                class="items-center bg-green-50 max-w-fit rounded-xl flex text-green-700 font-bold max-[520px]:text-sm space-x-2 p-3"
+	              >
+	                <svg
+	                  width="20"
+	                  height="21"
+	                  viewBox="0 0 20 21"
+	                  fill="none"
+	                  xmlns="http://www.w3.org/2000/svg"
+	                  className=""
+	                >
+	                  <path
+	                    d="M15.9806 2.30388C15.8871 1.83646 15.4767 1.5 15 1.5C14.5233 1.5 14.1129 1.83646 14.0194 2.30388L13.7809 3.49644C13.7017 3.8923 13.3923 4.20174 12.9964 4.28091L11.8039 4.51942C11.3365 4.6129 11 5.02332 11 5.5C11 5.97668 11.3365 6.3871 11.8039 6.48058L12.9964 6.71909C13.3923 6.79826 13.7017 7.1077 13.7809 7.50356L14.0194 8.69612C14.1129 9.16354 14.5233 9.5 15 9.5C15.4767 9.5 15.8871 9.16354 15.9806 8.69612L16.2191 7.50356C16.2983 7.1077 16.6077 6.79826 17.0036 6.71909L18.1961 6.48058C18.6635 6.3871 19 5.97668 19 5.5C19 5.02332 18.6635 4.6129 18.1961 4.51942L17.0036 4.28091C16.6077 4.20174 16.2983 3.8923 16.2191 3.49644L15.9806 2.30388Z"
+	                    fill="#15803d"
+	                  />
+	                  <path
+	                    d="M6.94868 6.18377C6.81257 5.77543 6.43043 5.5 6 5.5C5.56957 5.5 5.18743 5.77543 5.05132 6.18377L4.36754 8.23509C4.26801 8.53369 4.03369 8.76801 3.73509 8.86754L1.68377 9.55132C1.27543 9.68743 1 10.0696 1 10.5C1 10.9304 1.27543 11.3126 1.68377 11.4487L3.73509 12.1325C4.03369 12.232 4.26801 12.4663 4.36754 12.7649L5.05132 14.8162C5.18743 15.2246 5.56957 15.5 6 15.5C6.43043 15.5 6.81257 15.2246 6.94868 14.8162L7.63246 12.7649C7.73199 12.4663 7.96631 12.232 8.26491 12.1325L10.3162 11.4487C10.7246 11.3126 11 10.9304 11 10.5C11 10.0696 10.7246 9.68743 10.3162 9.55132L8.26491 8.86754C7.96631 8.76801 7.73199 8.53369 7.63246 8.23509L6.94868 6.18377Z"
+	                    fill="#15803d"
+	                  />
+	                  <path
+	                    d="M13.9487 14.1838C13.8126 13.7754 13.4304 13.5 13 13.5C12.5696 13.5 12.1874 13.7754 12.0513 14.1838L11.8675 14.7351C11.768 15.0337 11.5337 15.268 11.2351 15.3675L10.6838 15.5513C10.2754 15.6874 10 16.0696 10 16.5C10 16.9304 10.2754 17.3126 10.6838 17.4487L11.2351 17.6325C11.5337 17.732 11.768 17.9663 11.8675 18.2649L12.0513 18.8162C12.1874 19.2246 12.5696 19.5 13 19.5C13.4304 19.5 13.8126 19.2246 13.9487 18.8162L14.1325 18.2649C14.232 17.9663 14.4663 17.732 14.7649 17.6325L15.3162 17.4487C15.7246 17.3126 16 16.9304 16 16.5C16 16.0696 15.7246 15.6874 15.3162 15.5513L14.7649 15.3675C14.4663 15.268 14.232 15.0337 14.1325 14.7351L13.9487 14.1838Z"
+	                    fill="#15803d"
+	                  />
+	                </svg>
 
-<body class="h-full">
-	<div class="container">
-		<div class="bg-white h-full">
-			<div class="flex justify-center pt-10 px-28">
-				<div class="flex justify-center px-96">
-					<div class="items-center flex justify-center px-9 py-2">
-						<div class="bg-center bg-cover h-9 w-32">
-							<img src="gobe.svg">
+	                <div>COMING SOON</div>
+	              </div>
+	            </div>
+	            <div
+	              class="text-neutral-800 text-5xl font-bold tracking-tight leading-tight ml-px mt-8 max-[520px]:text-3xl"
+	            >
+	              Collaborate, connect, and grow with African education innovators
+	            </div>
+	            <div class="leading-snug mt-8">
+	              At GoBe, we connect innovators from diverse backgrounds,
+	              creating an enabling environment to share insight, find
+	              support on your journey to success. Join our network of
+	              passionate innovators today.
+	            </div>
+	          </div>
+	          <div class="flex">
+	            <div class="items-center flex font-bold space-x-4 pt-4">
+	              <button onclick="toggleModal()" class="bg-black hover:bg-gray-800 rounded-lg border-black border text-white px-6 py-3">
+	                JOIN WAITLIST
+				</button>
+	              <button class="border-black rounded-lg border px-6 py-3 max-[520px]:hidden">
+	                BECOME A SPEAKER
+				  </button>
+	            </div>
+	          </div>
+	        </div>
+	      </div>
+	      <div class="flex justify-end w-auto max-w-2xl">
+	        <div class="bg-center bg-cover h-auto w-auto md:max-w-2xl lg:max-w-xl">
+	        	<img alt="4 pictures of African people smiling with GoBe themed backgrounds" src="https://res.cloudinary.com/dex7kx47s/image/upload/v1682658153/hero-18_kxdudg.webp">
+	        </div>
+	      </div>
+	    </div>
+	  </div>
+
+	  <!-- UPCOMING EVENTS	-->
+	  <div class="bg-green-50 flex px-4 py-16 justify-center">
+		  <div class="flex flex-col w-11/12 justify-between gap-8 lg:flex-row max-w-[1440px]">
+		    <div>
+		      <div class="space-y-4">
+		        <div class="text-neutral-950 space-y-8 pt-4 pb-0.5 max-w-xl">
+		          <div class="text-3xl font-bold tracking-tight ml-1">
+		            Events
+		          </div>
+		          <div class="leading-snug w-full">
+		            We engage our community with webinars, Twitter spaces and
+		            even live events. We cover a wide range of tech industries
+		            — from SaaS and FinTech to startups and much more.
+		          </div>
+		        </div>
+		        <div class="flex text-neutral-950 leading-snug">
+		          <div class="text-green-700 py-2 font-bold flex gap-2">See upcoming events
+					<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+						<path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75" />
+					</svg>
+				  </div>
+		        </div>
+		      </div>
+		    </div>
+		    <div class="items-center flex justify-end max-w-xl max-[520px]:hidden">
+		      <div class="space-y-10">
+		        <div
+		          class="items-center flex text-neutral-950 leading-snug space-x-6"
+		        >
+		          <div>
+		            <div
+		              class="bg-center rounded-lg bg-cover border-neutral-950 border h-20 w-20"
+		            >
+		            	<img class="rounded-lg" alt="Poster for an upcoming GoBe event on open-source partnerships" src="https://res.cloudinary.com/dex7kx47s/image/upload/v1682613805/Event1_ukpjny.png">
+		            </div>
+		          </div>
+		          <div>
+		            How to build an EdTech platform and develop strategic
+		            partnerships with organizations that share your vision
+		          </div>
+		        </div>
+		        <div
+		          class="items-center flex text-neutral-950 leading-snug space-x-6"
+		        >
+		          <div>
+		            <div
+		              class="bg-center rounded-lg bg-cover border-neutral-950 border h-20 w-20"
+		            >
+		            	<img class="rounded-lg" alt="Poster for an upcoming GoBe event on self-paced learning" src="https://res.cloudinary.com/dex7kx47s/image/upload/v1682613805/Event2_loetoz.png">
+		            </div>
+		          </div>
+		          <div>
+		            How to work collaboratively with partners to develop
+		            hybrid learning environments that positively impact
+		            learner engagement and participation.
+		          </div>
+		        </div>
+		      </div>
+		    </div>
+		  </div>
+	  </div>
+
+	  <!-- BLOG	-->
+	  <div class="px-4 py-12">
+		  <div class="space-y-16 flex flex-col justify-center">
+		    <div
+		      class="flex flex-col text-neutral-950 text-center justify-center space-y-6 pt-3 pb-0.5 px-4"
+		    >
+		      <div
+		        class="text-3xl font-bold tracking-tight whitespace-nowrap"
+		      >
+		        Our Blog
+		      </div>
+		      <div class="leading-snug flex justify-center">
+				  <div class="max-w-2xl">
+					Discover the latest EdTech trends, helpful tips, and
+					real-world stories to help you navigate the education
+					landscape.
+				  </div>
+		      </div>
+		    </div>
+		    <div class="flex justify-center">
+				<div class=" flex flex-wrap min-[900px]:flex-row w-11/12 max-w-[1440px] justify-center gap-12">
+					<div class="max-w-sm">
+						<div>
+						<div class="bg-center bg-cover">
+							<img class="w-full rounded-t-lg" alt="Picture of people sitting in a meeting" src="https://res.cloudinary.com/dex7kx47s/image/upload/v1682613805/Image-2_vliyta.png">
 						</div>
-					</div>
-				</div>
-			</div>
-			<!-- HERO	-->
-			<div class="items-center bg-white flex justify-center px-28 py-10">
-				<div class="items-center flex gap-48 pb-6">
-					<div class="items-center flex">
-						<div class="space-y-9">
-							<div class="pr-7">
-								<div>
-									<div class="items-center bg-green-50 max-w-fit rounded-xl flex
-											text-green-600 font-bold space-x-2 p-3">
-										<svg width="20" height="21" viewBox="0 0 20 21" fill="none"
-											xmlns="http://www.w3.org/2000/svg" className="">
-											<path d="M15.9806 2.30388C15.8871 1.83646 15.4767 1.5 15 1.5C14.5233 1.5
-													14.1129 1.83646 14.0194 2.30388L13.7809 3.49644C13.7017 3.8923
-													13.3923 4.20174 12.9964 4.28091L11.8039 4.51942C11.3365 4.6129 11
-													5.02332 11 5.5C11 5.97668 11.3365 6.3871 11.8039 6.48058L12.9964
-													6.71909C13.3923 6.79826 13.7017 7.1077 13.7809 7.50356L14.0194
-													8.69612C14.1129 9.16354 14.5233 9.5 15 9.5C15.4767 9.5 15.8871
-													9.16354 15.9806 8.69612L16.2191 7.50356C16.2983 7.1077 16.6077
-													6.79826 17.0036 6.71909L18.1961 6.48058C18.6635 6.3871 19 5.97668
-													19 5.5C19 5.02332 18.6635 4.6129 18.1961 4.51942L17.0036
-													4.28091C16.6077 4.20174 16.2983 3.8923 16.2191 3.49644L15.9806
-													2.30388Z" fill="#53A548" />
-											<path d="M6.94868 6.18377C6.81257 5.77543 6.43043 5.5 6 5.5C5.56957 5.5
-														5.18743 5.77543 5.05132 6.18377L4.36754 8.23509C4.26801 8.53369
-														4.03369 8.76801 3.73509 8.86754L1.68377 9.55132C1.27543 9.68743 1
-														10.0696 1 10.5C1 10.9304 1.27543 11.3126 1.68377 11.4487L3.73509
-														12.1325C4.03369 12.232 4.26801 12.4663 4.36754 12.7649L5.05132
-														14.8162C5.18743 15.2246 5.56957 15.5 6 15.5C6.43043 15.5 6.81257
-														15.2246 6.94868 14.8162L7.63246 12.7649C7.73199 12.4663 7.96631
-														12.232 8.26491 12.1325L10.3162 11.4487C10.7246 11.3126 11 10.9304
-														11 10.5C11 10.0696 10.7246 9.68743 10.3162 9.55132L8.26491
-														8.86754C7.96631 8.76801 7.73199 8.53369 7.63246 8.23509L6.94868
-														6.18377Z" fill="#53A548" />
-											<path d="M13.9487 14.1838C13.8126 13.7754 13.4304 13.5 13 13.5C12.5696
-															13.5 12.1874 13.7754 12.0513 14.1838L11.8675 14.7351C11.768
-															15.0337 11.5337 15.268 11.2351 15.3675L10.6838 15.5513C10.2754
-															15.6874 10 16.0696 10 16.5C10 16.9304 10.2754 17.3126 10.6838
-															17.4487L11.2351 17.6325C11.5337 17.732 11.768 17.9663 11.8675
-															18.2649L12.0513 18.8162C12.1874 19.2246 12.5696 19.5 13
-															19.5C13.4304 19.5 13.8126 19.2246 13.9487 18.8162L14.1325
-															18.2649C14.232 17.9663 14.4663 17.732 14.7649 17.6325L15.3162
-															17.4487C15.7246 17.3126 16 16.9304 16 16.5C16 16.0696 15.7246
-															15.6874 15.3162 15.5513L14.7649 15.3675C14.4663 15.268 14.232
-															15.0337 14.1325 14.7351L13.9487 14.1838Z" fill="#53A548" />
-										</svg>
-
-										<div>COMING SOON</div>
+						<div
+							class="bg-white border-black border rounded-b-lg text-neutral-950 leading-normal space-y-4 py-4 px-6"
+						>
+							<div>
+								<div class="font-bold space-y-2 pt-2">
+									<div class="opacity-40 text-sm">OUR EVENT</div>
+									<div class="text-xl tracking-tight">
+										DevOps 101: 24th March
 									</div>
 								</div>
-								<div class="text-neutral-800 text-5xl font-bold tracking-tight
-													leading-tight ml-px mt-9">
-									Collaborate, connect, and grow with African education innovators
-								</div>
-								<div class="leading-snug mt-10">
-									At GoBe, we connect innovators from diverse backgrounds,
-									creating an enabling environment to share insight, find
-									support on your journey to success. Join our network of
-									passionate innovators today.
+							</div>
+							<div class="leading-normal">
+							The world is a global village now, and as such, there
+							are no limitations to where or when you must carry out
+							your business, even if you trade physical products. AI
+							has created a new wave of...
+							</div>
+						</div>
+						</div>
+					</div>
+					<div class="max-w-sm">
+						<div>
+						<div class="bg-center bg-cover">
+							<img class="w-full rounded-t-lg" alt="Woman sitting with head bent down and smiling" src="https://res.cloudinary.com/dex7kx47s/image/upload/v1682613805/Image-3_irac1o.png">
+						</div>
+						<div
+							class="bg-white border-black border rounded-b-lg text-neutral-950 leading-normal space-y-4 py-4 px-6"
+						>
+							<div>
+							<div class="font-bold space-y-2 pt-2">
+								<div class="opacity-40 text-sm">LET’S TALK IMPACT</div>
+								<div class="text-xl tracking-tight">
+								Ope from Cowrywise
 								</div>
 							</div>
+							</div>
+							<div class="leading-normal">
+							The world is a global village now, and as such, there
+							are no limitations to where or when you must carry out
+							your business, even if you trade physical products. In
+							addition...
+							</div>
+						</div>
+						</div>
+					</div>
+					<div class="max-w-sm">
+						<div>
+						<div class="bg-center bg-cover">
+							<img class="w-full rounded-t-lg" alt="Phone keyboard and coffee mug with a plant by the side on a desk" src="https://res.cloudinary.com/dex7kx47s/image/upload/v1682613805/Image-4_ofhf3y.png">
+						</div>
+						<div
+							class="bg-white border-black border rounded-b-lg text-neutral-950 leading-normal space-y-4 py-4 px-6"
+						>
 							<div class="flex">
-								<div class="items-center flex font-bold space-x-4 pt-4">
-									<div class="bg-black rounded-lg border-black border text-white px-6
-														py-4">
-										JOIN WAITLIST
-									</div>
-									<div class="border-black rounded-lg border px-6 py-4">
-										BECOME A SPEAKER
-									</div>
+							<div
+								class="font-bold space-y-2 pt-2"
+							>
+								<div class="opacity-40 text-sm">NEWSLETTER</div>
+								<div class="text-xl tracking-tight">
+								Working From Home in Lagos
 								</div>
 							</div>
+							</div>
+							<div class="leading-normal">
+							The world is a global village now, and as such, there
+							are no limitations to where or when you must carry out
+							your business, even if you trade physical products. In
+							hindsight, we can...
+							</div>
+						</div>
 						</div>
 					</div>
+				</div>
+		    </div>
+		  </div>
+		</div>
+
+	  <!-- SUBSCRIBE TO OUR NEWSLETTER	-->
+	  <div class="px-8 py-10">
+		  <div class="space-y-9">
+		    <div class="text-center justify-center space-y-7 pt-2 pb-0.5 px-3">
+		      <div
+		        class="text-3xl font-bold tracking-tight text-center"
+		      >
+		        Subscribe to our newsletter
+		      </div>
+		      <div class="leading-snug">
+		        Start engaging and be the first to know when we launch.
+		        Subscribe now and join our waitlist
+		      </div>
+		    </div>
+		    <div class="flex justify-center">
+		      <div class="space-y-5 w-10/12 max-w-md">
+		        <div class="items-center">
+					<form class="flex flex-col gap-4 min-[520px]:flex-row" id="gobe-form" method="POST" action="">
+						<input placeholder="Enter your email" type="email" name="email" 
+							class="bg-white border-black border rounded-lg whitespace-nowrap placeholder-neutral-400 leading-normal py-3 pl-3 pr-32 w-full max-[520px]:pr-4">
+						</input>
+						<button
+							class="bg-black border-black hover:bg-gray-800 rounded-lg border text-white text-center font-bold px-6 py-3 max-[520px]:w-full"
+						>
+							Subscribe
+						</button>
+					</form>
+		        </div>
+		        <div class="flex flex-col min-[520px]:flex-row justify-center gap-1 text-sm space-x-0 leading-normal text-center w-full">
+		          By subscribing you agree to our <a href="#" class="underline">Privacy Policy</a>
+		        </div>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+
+	  <!-- FOOTER	-->
+	  <div class="space-y-4 px-12 py-5 bottom-3">
+	    <div class="items-center flex justify-center">
+	      <div class="bg-neutral-300 h-px w-11/12"></div>
+	    </div>
+	    <div class="items-center flex flex-col justify-between max-[520px]:justify-center">
+	      <div class="items-center flex justify-between max-[520px]:justify-center w-11/12">
+	        <div>
+	          <div class="items-center gap-4 flex max-[520px]:hidden">
+	            <div class="leading-snug">
+	              © 2023 GoBe Educator. All rights reserved.
+	            </div>
+	            <div class="flex justify-end">
+	              <div
+	                class="items-center flex leading-snug space-x-2 hidden p-px"
+	              >
+	                <div class="underline">Privacy Policy</div>
+	                <div class="underline">Community Guidelines</div>
+	              </div>
+	            </div>
+	          </div>
+	        </div>
+	        <div class="flex justify-end">
+	          <div class="items-center gap-4 flex">
+	            <div class="items-center flex h-6 justify-center w-6">
+	              <svg
+	                width="10"
+	                height="18"
+	                viewBox="0 0 10 18"
+	                fill="none"
+	                xmlns="http://www.w3.org/2000/svg"
+	                className=""
+	              >
+	                <path
+	                  d="M9.5 3H6.5C5.9477 3 5.5 3.44772 5.5 4V7H9.5C9.6137 6.99748 9.7216 7.0504 9.7892 7.1419C9.8568 7.2334 9.8758 7.352 9.84 7.46L9.1 9.66C9.0318 9.8619 8.8431 9.9984 8.63 10H5.5V17.5C5.5 17.7761 5.2761 18 5 18H2.5C2.22386 18 2 17.7761 2 17.5V10H0.5C0.22386 10 0 9.7761 0 9.5V7.5C0 7.2239 0.22386 7 0.5 7H2V4C2 1.79086 3.7909 0 6 0H9.5C9.7761 0 10 0.22386 10 0.5V2.5C10 2.77614 9.7761 3 9.5 3Z"
+	                  fill="black"
+	                />
+	              </svg>
+	            </div>
+	            <div class="items-center flex h-6 justify-center w-6">
+	              <svg
+	                width="18"
+	                height="18"
+	                viewBox="0 0 18 18"
+	                fill="none"
+	                xmlns="http://www.w3.org/2000/svg"
+	                className=""
+	              >
+	                <path
+	                  fill-rule="evenodd"
+	                  clip-rule="evenodd"
+	                  d="M13 0H5C2.23858 0 0 2.23858 0 5V13C0 15.7614 2.23858 18 5 18H13C15.7614 18 18 15.7614 18 13V5C18 2.23858 15.7614 0 13 0ZM16.25 13C16.2445 14.7926 14.7926 16.2445 13 16.25H5C3.20735 16.2445 1.75549 14.7926 1.75 13V5C1.75549 3.20735 3.20735 1.75549 5 1.75H13C14.7926 1.75549 16.2445 3.20735 16.25 5V13ZM13.75 5.25C14.3023 5.25 14.75 4.80228 14.75 4.25C14.75 3.69772 14.3023 3.25 13.75 3.25C13.1977 3.25 12.75 3.69772 12.75 4.25C12.75 4.80228 13.1977 5.25 13.75 5.25ZM9 4.5C6.51472 4.5 4.5 6.51472 4.5 9C4.5 11.4853 6.51472 13.5 9 13.5C11.4853 13.5 13.5 11.4853 13.5 9C13.5027 7.8057 13.0294 6.65957 12.1849 5.81508C11.3404 4.97059 10.1943 4.49734 9 4.5ZM6.25 9C6.25 10.5188 7.4812 11.75 9 11.75C10.5188 11.75 11.75 10.5188 11.75 9C11.75 7.4812 10.5188 6.25 9 6.25C7.4812 6.25 6.25 7.4812 6.25 9Z"
+	                  fill="black"
+	                />
+	              </svg>
+	            </div>
+	            <div class="items-center flex h-6 justify-center w-6">
+	              <svg
+	                width="18"
+	                height="16"
+	                viewBox="0 0 18 16"
+	                fill="none"
+	                xmlns="http://www.w3.org/2000/svg"
+	                className=""
+	              >
+	                <path
+	                  d="M17.9727 2.7174C17.5083 3.33692 16.9469 3.87733 16.3102 4.31776C16.3102 4.47959 16.3102 4.64142 16.3102 4.81225C16.3153 7.7511 15.1414 10.5691 13.0517 12.6345C10.9619 14.6999 8.13108 15.8399 5.19393 15.7989C3.49587 15.8046 1.81955 15.4169 0.2963 14.6661C0.21416 14.6302 0.16119 14.549 0.1615 14.4593V14.3604C0.1615 14.2313 0.26611 14.1267 0.39515 14.1267C2.0643 14.0716 3.6739 13.4929 4.99622 12.4724C3.48541 12.4419 2.12607 11.5469 1.50048 10.1707C1.46889 10.0956 1.47872 10.0093 1.52645 9.9432C1.57417 9.8771 1.65288 9.8407 1.73413 9.8471C2.1933 9.8932 2.65706 9.8505 3.10008 9.7212C1.43227 9.375 0.17909 7.9904 -0.000260003 6.2957C-0.00663 6.2144 0.0297999 6.1357 0.0958799 6.0879C0.16195 6.0402 0.24812 6.0303 0.32326 6.062C0.77082 6.2595 1.25397 6.3635 1.74312 6.3676C0.28172 5.40846 -0.34951 3.58405 0.20643 1.92622C0.26382 1.76513 0.40169 1.64612 0.56938 1.61294C0.73706 1.57975 0.90984 1.63728 1.0242 1.76439C2.99627 3.86325 5.70592 5.11396 8.58178 5.25279C8.50818 4.95885 8.47198 4.65676 8.47398 4.35372C8.50088 2.76472 9.48408 1.34921 10.9633 0.769872C12.4424 0.190542 14.1248 0.562032 15.2229 1.71044C15.9713 1.56785 16.6949 1.31645 17.3706 0.964212C17.4201 0.933312 17.4829 0.933312 17.5324 0.964212C17.5633 1.01373 17.5633 1.07652 17.5324 1.12604C17.2051 1.87552 16.6522 2.50412 15.9508 2.92419C16.565 2.85296 17.1684 2.70807 17.7481 2.49264C17.7969 2.45942 17.861 2.45942 17.9098 2.49264C17.9507 2.51134 17.9813 2.54711 17.9934 2.59042C18.0055 2.63373 17.9979 2.68018 17.9727 2.7174Z"
+	                  fill="black"
+	                />
+	              </svg>
+	            </div>
+	            <div class="items-center flex h-6 justify-center w-6">
+	              <svg
+	                width="18"
+	                height="18"
+	                viewBox="0 0 18 18"
+	                fill="none"
+	                xmlns="http://www.w3.org/2000/svg"
+	                className=""
+	              >
+	                <path
+	                  fill-rule="evenodd"
+	                  clip-rule="evenodd"
+	                  d="M2 0H16C17.1046 0 18 0.89543 18 2V16C18 17.1046 17.1046 18 16 18H2C0.89543 18 0 17.1046 0 16V2C0 0.89543 0.89543 0 2 0ZM5 15C5.27614 15 5.5 14.7761 5.5 14.5V7.5C5.5 7.2239 5.27614 7 5 7H3.5C3.22386 7 3 7.2239 3 7.5V14.5C3 14.7761 3.22386 15 3.5 15H5ZM4.25 6C3.42157 6 2.75 5.32843 2.75 4.5C2.75 3.67157 3.42157 3 4.25 3C5.07843 3 5.75 3.67157 5.75 4.5C5.75 5.32843 5.07843 6 4.25 6ZM14.5 15C14.7761 15 15 14.7761 15 14.5V9.9C15.0325 8.3108 13.8576 6.95452 12.28 6.76C11.177 6.65925 10.1083 7.1744 9.5 8.1V7.5C9.5 7.2239 9.2761 7 9 7H7.5C7.2239 7 7 7.2239 7 7.5V14.5C7 14.7761 7.2239 15 7.5 15H9C9.2761 15 9.5 14.7761 9.5 14.5V10.75C9.5 9.9216 10.1716 9.25 11 9.25C11.8284 9.25 12.5 9.9216 12.5 10.75V14.5C12.5 14.7761 12.7239 15 13 15H14.5Z"
+	                  fill="black"
+	                />
+	              </svg>
+	            </div>
+	          </div>
+	        </div>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+	<!-- Waitlist Modal -->
+	<div class="fixed z-10 inset-0 overflow-y-auto h-screen hidden" id="modal">
+		<div class="flex place-items-center sm:items-center justify-center absolute inset-0 bg-[#00000037] text-center sm:p-0">
+
+			<div class="relative bg-white rounded-lg text-left overflow-hidden shadow-xl transform transition-all p-4 w-10/12 max-w-md" @click.away="open = false">
+				<div class="bg-white flex flex-col justify-center px-4 pt-5 pb-4 sm:p-6 sm:pb-4">
 					<div class="flex justify-end">
-						<div class="bg-center bg-cover h-[624px] w-[600px]">
-							<img src="hero.png">
-						</div>
-					</div>
-				</div>
-			</div>
-			<!-- UPCOMING EVENTS	-->
-			<div class="bg-green-50 px-28 py-16">
-				<div class="items-center flex gap-48">
-					<div>
-						<div class="space-y-5 py-6">
-							<div class="text-neutral-950 space-y-8 pt-4 pb-0.5 pr-4">
-								<div class="text-3xl font-bold tracking-tight ml-1">
-									Events
-								</div>
-								<div class="leading-snug">
-									We engage our community with webinars, Twitter spaces and
-									even live events. We cover a wide range of tech industries
-									— from SaaS and FinTech to startups and much more.
-								</div>
-							</div>
-							<div class="flex text-neutral-950 leading-snug">
-								<div class="border-neutral-950 rounded-lg font-bold border p-4">LEARN
-									MORE</div>
+						<a onclick="toggleModal()"><svg class=" cursor-pointer bg-gray-100 max-[375px]:bg-inherit hover:bg-gray-200 rounded text-gray-400 hover:text-gray-700 w-[24px]" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+							<path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+						</svg></a>
+					</div>                          
+					<div class="sm:flex sm:items-start">
+						<div class="mt-2 text-center sm:text-left">
+							<h3 class="text-2xl font-semibold py-2 text-gray-900" id="modal-title">
+								Join our waitlist
+							</h3>
+							<div class="mt-0">
+								<p class="text-sm text-gray-500">
+									We swing open the doors to our vibrant community soon. Be the first to see inside when we do. Join our waitlist now!</p>
 							</div>
 						</div>
 					</div>
-					<div class="items-center flex justify-end">
-						<div class="space-y-10">
-							<div class="items-center flex text-neutral-950 leading-snug space-x-6
-												pr-14">
-								<div>
-									<div class="bg-center rounded-lg bg-cover border-neutral-950 border
-														h-20 w-20">
-										<img class="rounded-lg" src="images/Event1.png">
-									</div>
-								</div>
-								<div>
-									How to build an EdTech platform and develop strategic
-									partnerships with organizations that share your vision
-								</div>
-							</div>
-							<div class="items-center flex text-neutral-950 leading-snug space-x-6
-												pr-8">
-								<div>
-									<div class="bg-center rounded-lg bg-cover border-neutral-950 border
-														h-20 w-20">
-										<img class="rounded-lg" src="images/Event2.png">
-									</div>
-								</div>
-								<div>
-									How to work collaboratively with partners to develop
-									hybrid learning environments that positively impact
-									learner engagement and participation.
-								</div>
-							</div>
+					<form name="submit_to_google_sheet" class="mt-8 flex flex-col w-full justify-center" method="post" id="gobe-form">
+						<div class="mb-6">
+							<label for="fname" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">First Name</label>
+							<input type="text" name="First Name" id="fname" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="First name" required>
 						</div>
-					</div>
-				</div>
-			</div>
-
-			<!-- BLOG	-->
-			<div class="px-28 py-10">
-				<div class="space-y-16">
-					<div class="ml-72 text-neutral-950 text-center space-y-6 pt-3 pb-0.5 px-4">
-						<div class="text-3xl font-bold tracking-tight whitespace-nowrap">
-							Our Blog
+						<div class="mb-6">
+							<label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Your email</label>
+							<input type="email" name="Email" id="email" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="name@example.com" required>
 						</div>
-						<div class="leading-snug">
-							Discover the latest EdTech trends, helpful tips, and
-							real-world stories to help you navigate the education
-							landscape.
-						</div>
-					</div>
-					<div class="items-center flex gap-28 w-96">
-						<div>
-							<div>
-								<div class="bg-center bg-cover h-44 w-96">
-									<img src="images/image-2.png">
-								</div>
-								<div class="bg-white border-black border text-neutral-950 leading-normal
-													space-y-5 pt-6 pb-7 pl-6 pr-9">
-									<div>
-										<div class="font-bold space-y-4 pt-1.5 pb-px px-px">
-											<div class="opacity-40">OUR EVENT</div>
-											<div class="text-neutral-950 text-2xl tracking-tight">
-												DevOps 101: 24th March
-											</div>
-										</div>
-									</div>
-									<div>
-										The world is a global village now, and as such, there
-										are no limitations to where or when you must carry out
-										your business, even if you trade physical products. AI
-										has created a new wave of...
-									</div>
-								</div>
-							</div>
-						</div>
+						<input type="submit" class="text-white bg-green-700 hover:bg-green-800 focus:ring-4 focus:outline-none focus:ring-green-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-green-700 dark:hover:bg-green-700 dark:focus:ring-green-800 mb-4" value="Join Waitlist"/>
 						<div class="flex justify-center">
-							<div>
-								<div class="bg-center bg-cover h-44 w-96">
-									<img src="images/image-3.png">
-								</div>
-								<div class="bg-white border-black border text-neutral-950 leading-normal
-													space-y-5 pt-6 pb-7 pl-6 pr-9">
-									<div>
-										<div class="font-bold space-y-3.5 p-px">
-											<div class="opacity-40">LET’S TALK IMPACT</div>
-											<div class="text-neutral-950 text-2xl tracking-tight">
-												Ope from Cowrywise
-											</div>
-										</div>
-									</div>
-									<div>
-										The world is a global village now, and as such, there
-										are no limitations to where or when you must carry out
-										your business, even if you trade physical products. In
-										addition...
-									</div>
-								</div>
-							</div>
+							<label for="remember" class="text-sm underline font-medium text-green-700 dark:text-green-700">Become a speaker</label>
 						</div>
-						<div class="flex justify-end">
-							<div>
-								<div class="bg-center bg-cover h-44 w-96">
-									<img class="rounded-t-lg" src="images/image-4.png">
-								</div>
-								<div class="bg-white border-black border rounded-b-lg space-y-5 pt-6
-													pb-7 px-6 w-96">
-									<div class="flex justify-center">
-										<div class="font-bold space-y-3.5 pt-1.5 pb-px pl-px pr-1.5">
-											<div class="opacity-40">NEWSLETTER</div>
-											<div class="text-neutral-950 text-2xl tracking-tight">
-												Working From Home in Lagos
-											</div>
-										</div>
-									</div>
-									<div class="text-neutral-950 leading-normal">
-										The world is a global village now, and as such, there
-										are no limitations to where or when you must carry out
-										your business, even if you trade physical products. In
-										hindsight, we can...
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-
-			<!-- SUBSCRIBE TO OUR NEWSLETTER	-->
-			<div class="px-96 py-10">
-				<div class="space-y-9">
-					<div class="text-center justify-center space-y-7 pt-2 pb-0.5 px-3">
-						<div class="text-3xl font-bold tracking-tight ml-20 whitespace-nowrap">
-							Subscribe to our newsletter
-						</div>
-						<div class="leading-snug">
-							Start engaging and be the first to know when we launch.
-							Subscribe now and join our waitlist
-						</div>
-					</div>
-					<div class="flex justify-center">
-						<div class="space-y-5 space-x-16">
-							<div class="items-center flex space-x-4">
-								<div class="bg-white border-black border rounded-lg text-neutral-400
-													leading-normal py-4 pl-3 pr-32">
-									Enter your email
-								</div>
-								<div class="bg-black border-black rounded-lg border text-white font-bold
-													px-6 py-4">
-									Subscribe
-								</div>
-							</div>
-							<div class="text-xs leading-normal text-center">
-								By subscribing you agree to our <a href="#" class="underline">Privacy
-									Policy</a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-
-			<!-- FOOTER	-->
-			<div class="space-y-4 px-12 py-5 bottom-3">
-				<div class="items-center flex justify-center">
-					<div class="bg-neutral-300 h-px w-[1280px]"></div>
-				</div>
-				<div class="items-center flex justify-center">
-					<div class="items-center flex">
-						<div>
-							<div class="items-center flex">
-								<div class="leading-snug">
-									© 2023 GoBe Educator. All rights reserved.
-								</div>
-								<div class="flex justify-end">
-									<div class="items-center flex leading-snug space-x-6 p-px">
-										<div class="underline">Privacy Policy</div>
-										<div class="underline">Community Guidelines</div>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="flex justify-end">
-							<div class="items-center flex">
-								<div class="items-center flex h-6 justify-center w-6">
-									<svg width="10" height="18" viewBox="0 0 10 18" fill="none"
-										xmlns="http://www.w3.org/2000/svg" className="">
-										<path d="M9.5 3H6.5C5.9477 3 5.5 3.44772 5.5 4V7H9.5C9.6137 6.99748
-															9.7216 7.0504 9.7892 7.1419C9.8568 7.2334 9.8758 7.352 9.84
-															7.46L9.1 9.66C9.0318 9.8619 8.8431 9.9984 8.63 10H5.5V17.5C5.5
-															17.7761 5.2761 18 5 18H2.5C2.22386 18 2 17.7761 2
-															17.5V10H0.5C0.22386 10 0 9.7761 0 9.5V7.5C0 7.2239 0.22386 7 0.5
-															7H2V4C2 1.79086 3.7909 0 6 0H9.5C9.7761 0 10 0.22386 10
-															0.5V2.5C10 2.77614 9.7761 3 9.5 3Z" fill="black" />
-									</svg>
-								</div>
-								<div class="items-center flex h-6 justify-center w-6">
-									<svg width="18" height="18" viewBox="0 0 18 18" fill="none"
-										xmlns="http://www.w3.org/2000/svg" className="">
-										<path fill-rule="evenodd" clip-rule="evenodd" d="M13 0H5C2.23858 0 0 2.23858 0 5V13C0 15.7614 2.23858 18 5
-																18H13C15.7614 18 18 15.7614 18 13V5C18 2.23858 15.7614 0 13
-																0ZM16.25 13C16.2445 14.7926 14.7926 16.2445 13 16.25H5C3.20735
-																16.2445 1.75549 14.7926 1.75 13V5C1.75549 3.20735 3.20735
-																1.75549 5 1.75H13C14.7926 1.75549 16.2445 3.20735 16.25
-																5V13ZM13.75 5.25C14.3023 5.25 14.75 4.80228 14.75 4.25C14.75
-																3.69772 14.3023 3.25 13.75 3.25C13.1977 3.25 12.75 3.69772 12.75
-																4.25C12.75 4.80228 13.1977 5.25 13.75 5.25ZM9 4.5C6.51472 4.5
-																4.5 6.51472 4.5 9C4.5 11.4853 6.51472 13.5 9 13.5C11.4853 13.5
-																13.5 11.4853 13.5 9C13.5027 7.8057 13.0294 6.65957 12.1849
-																5.81508C11.3404 4.97059 10.1943 4.49734 9 4.5ZM6.25 9C6.25
-																10.5188 7.4812 11.75 9 11.75C10.5188 11.75 11.75 10.5188 11.75
-																9C11.75 7.4812 10.5188 6.25 9 6.25C7.4812 6.25 6.25 7.4812 6.25
-																9Z" fill="black" />
-									</svg>
-								</div>
-								<div class="items-center flex h-6 justify-center w-6">
-									<svg width="18" height="16" viewBox="0 0 18 16" fill="none"
-										xmlns="http://www.w3.org/2000/svg" className="">
-										<path d="M17.9727 2.7174C17.5083 3.33692 16.9469 3.87733 16.3102
-																	4.31776C16.3102 4.47959 16.3102 4.64142 16.3102 4.81225C16.3153
-																	7.7511 15.1414 10.5691 13.0517 12.6345C10.9619 14.6999 8.13108
-																	15.8399 5.19393 15.7989C3.49587 15.8046 1.81955 15.4169 0.2963
-																	14.6661C0.21416 14.6302 0.16119 14.549 0.1615
-																	14.4593V14.3604C0.1615 14.2313 0.26611 14.1267 0.39515
-																	14.1267C2.0643 14.0716 3.6739 13.4929 4.99622 12.4724C3.48541
-																	12.4419 2.12607 11.5469 1.50048 10.1707C1.46889 10.0956 1.47872
-																	10.0093 1.52645 9.9432C1.57417 9.8771 1.65288 9.8407 1.73413
-																	9.8471C2.1933 9.8932 2.65706 9.8505 3.10008 9.7212C1.43227
-																	9.375 0.17909 7.9904 -0.000260003 6.2957C-0.00663 6.2144
-																	0.0297999 6.1357 0.0958799 6.0879C0.16195 6.0402 0.24812 6.0303
-																	0.32326 6.062C0.77082 6.2595 1.25397 6.3635 1.74312
-																	6.3676C0.28172 5.40846 -0.34951 3.58405 0.20643 1.92622C0.26382
-																	1.76513 0.40169 1.64612 0.56938 1.61294C0.73706 1.57975 0.90984
-																	1.63728 1.0242 1.76439C2.99627 3.86325 5.70592 5.11396 8.58178
-																	5.25279C8.50818 4.95885 8.47198 4.65676 8.47398 4.35372C8.50088
-																	2.76472 9.48408 1.34921 10.9633 0.769872C12.4424 0.190542
-																	14.1248 0.562032 15.2229 1.71044C15.9713 1.56785 16.6949
-																	1.31645 17.3706 0.964212C17.4201 0.933312 17.4829 0.933312
-																	17.5324 0.964212C17.5633 1.01373 17.5633 1.07652 17.5324
-																	1.12604C17.2051 1.87552 16.6522 2.50412 15.9508 2.92419C16.565
-																	2.85296 17.1684 2.70807 17.7481 2.49264C17.7969 2.45942 17.861
-																	2.45942 17.9098 2.49264C17.9507 2.51134 17.9813 2.54711 17.9934
-																	2.59042C18.0055 2.63373 17.9979 2.68018 17.9727 2.7174Z" fill="black" />
-									</svg>
-								</div>
-								<div class="items-center flex h-6 justify-center w-6">
-									<svg width="18" height="18" viewBox="0 0 18 18" fill="none"
-										xmlns="http://www.w3.org/2000/svg" className="">
-										<path fill-rule="evenodd" clip-rule="evenodd" d="M2 0H16C17.1046 0 18 0.89543 18 2V16C18 17.1046 17.1046 18
-																		16 18H2C0.89543 18 0 17.1046 0 16V2C0 0.89543 0.89543 0 2 0ZM5
-																		15C5.27614 15 5.5 14.7761 5.5 14.5V7.5C5.5 7.2239 5.27614 7 5
-																		7H3.5C3.22386 7 3 7.2239 3 7.5V14.5C3 14.7761 3.22386 15 3.5
-																		15H5ZM4.25 6C3.42157 6 2.75 5.32843 2.75 4.5C2.75 3.67157
-																		3.42157 3 4.25 3C5.07843 3 5.75 3.67157 5.75 4.5C5.75 5.32843
-																		5.07843 6 4.25 6ZM14.5 15C14.7761 15 15 14.7761 15
-																		14.5V9.9C15.0325 8.3108 13.8576 6.95452 12.28 6.76C11.177
-																		6.65925 10.1083 7.1744 9.5 8.1V7.5C9.5 7.2239 9.2761 7 9
-																		7H7.5C7.2239 7 7 7.2239 7 7.5V14.5C7 14.7761 7.2239 15 7.5
-																		15H9C9.2761 15 9.5 14.7761 9.5 14.5V10.75C9.5 9.9216 10.1716
-																		9.25 11 9.25C11.8284 9.25 12.5 9.9216 12.5 10.75V14.5C12.5
-																		14.7761 12.7239 15 13 15H14.5Z" fill="black" />
-									</svg>
-								</div>
-							</div>
-						</div>
-					</div>
+					</form>
 				</div>
 			</div>
 		</div>
 	</div>
-</body>
 
+	<!-- Toggle Waitlist Modal -->
+	<script>
+		function toggleModal() { document.getElementById('modal').classList.toggle('hidden')}
+		const scriptURL = "https://script.google.com/macros/s/AKfycbyt5QGXeCap54pfDU27pBf6FNbEZuTnl9EHOYMgcQwSwPE1_pj10n405GsK8octrNXD/exec"
+        const form = document.forms["submit_to_google_sheet"]
+        form.addEventListener("submit", e => {
+            e.preventDefault();
+            fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => console.log('Success!', response))
+            .catch(error => console.error('Error!', error.message))
+			form.reset()
+        });
+
+	</script>
+</body>
 </html>
