@@ -1,0 +1,183 @@
+:root {
+    --black: #121212;
+    --gray: #9A9A9A;
+    --offwhite: #f2f2f2;
+    --white: #FFF;
+
+    /* gobe colors */
+    --gobe-green: #1C8838;
+    --gobe-yellow: #FFB400;
+    --gobe-light-purple: #9788FF;
+}
+
+body {
+    width: 72vw;
+    max-width: 1280px;
+    margin: 0 auto;
+    font-family: 'Public Sans', sans-serif;
+    color: var(--black);
+    font-size: 18px;
+    overflow-x: hidden;
+}
+
+.main {
+    position: fixed;
+    z-index: -1;
+    border-left: 1px solid var(--offwhite);
+    width: 72vw;
+    max-width: 1280px;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.section {
+    height: 100%;
+    border-right: 1px solid var(--offwhite);
+}
+
+.nav-bar {
+    margin-top: 32px;
+}
+
+.logo {
+    width: 110px;
+}
+
+.nav-links {
+    align-items: center;
+}
+
+.main-text {
+    width: 80%;
+}
+
+.main-text > h1 {
+    margin: 20px 0;
+    font-size: 94px;
+    font-weight: 100;
+    line-height: 164%;
+    letter-spacing: -1.5px;
+}
+
+.offset {
+    width: 180px;
+    right: -2.5%;
+    top: 16%;
+}
+
+.offset > img {
+    width: 100%;
+}
+
+.brief {
+    width: 84%;
+}
+
+.bottom-left {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.primary-btn {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: fit-content;
+    color: var(--offwhite);
+    background-color: var(--black);
+    padding: 12px 24px;
+    border-radius: 4px;
+}
+
+.primary-btn:hover {
+    /* box-shadow: 0 0.5em 0.5em -0.4em var(--gray); */
+    transform: translate(0.25em, -0.25em);
+}
+
+
+
+/* UTILITY CLASSES */
+
+.flex {
+    display: flex;
+}
+
+.flex-auto {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.text-light {
+    font-weight: 200;
+}
+
+.abs {
+    position: absolute;
+}
+
+.hide {
+    display: none;
+}
+
+.grid {
+    display: grid;
+}
+
+.cols-2 {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+    cursor: pointer;
+    transition: .35s;
+}
+
+.link:hover {
+    opacity: 0.6;
+}
+
+p {
+    line-height: 180%;
+    margin: 0;
+}
+
+.gap-12 {
+    gap: 12px;
+}
+
+.gap-24 {
+    gap: 24px;
+}
+
+.gap-40 {
+    gap: 40px;
+}
+
+.gap-72 {
+    gap: 72px;
+}
+
+.mt-12 {
+    margin-top: 12px;
+}
+
+.mt-24 {
+    margin-top: 24px;
+}
+
+.mt-40 {
+    margin-top: 40px;
+}
+
+.mt-72 {
+    margin-top: 72px;
+}
