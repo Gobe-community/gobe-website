@@ -6,7 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1 minimum-scale=1">
 
 	<!-- Page Metadata -->
-	<title>Home - Gobe Africa</title>
+	<title>Community - Gobe Africa</title>
 	<link rel="shortcut icon" href="assets/favicon.png" type="image/x-icon">
 	<meta name=description content="GoBe - Africa's Hub for education innovators!">
 	<meta name=author content="Feyisola Olawuyi">
@@ -15,14 +15,14 @@
 	<meta property=og:type content=website>
 	<meta property="og:image" content=""/>
 	<meta property=og:url content=https://gobe.africa>
-	<meta property=og:title content="Home - Gobe Africa">
+	<meta property=og:title content="Community - Gobe Africa">
 	<meta property=og:description content="GoBe - Africa's Hub for education innovators!">
 
 	<!-- Twitter card -->
 	<meta name=twitter:site content=@gobehq>
 	<meta name=twitter:creator content=@gobehq>
 	<meta name=twitter:url content=https://gobe.africa>
-	<meta name=twitter:title content="Home - Gobe Africa">
+	<meta name=twitter:title content="Community - Gobe Africa">
 	<meta property="twitter:image" content="#"/>
 	<meta name=twitter:card content="summary_large_image">
 	<meta name=twitter:description content="GoBe - Africa's Hub for education innovators!">
@@ -61,40 +61,82 @@
 		<div class="section"></div>
 	</div>
 
+	<div class="navigation sm">
+		<input type="checkbox" class="navigation__checkbox" id="navi-toggle">
+
+		<label for="navi-toggle" class="navigation__button">
+			<span class="navigation__icon">&nbsp;</span>
+		</label>
+
+		<nav class="navigation__nav">
+			<ul class="navigation__list">
+
+				<li class="navigation__item dropdown">
+					<input type="checkbox" class="dropdown__checkbox" id="dropdown-toggle">
+					<label for="dropdown-toggle" class=" flex">Resources<i class="ti ti-chevron-down"></i></label>
+					<!-- Insert ul li submenu here -->
+					<ul class="sub-menu" aria-label="submenu">
+						<li>
+						  <a class="navigation__link flex" href="community.html">Community
+						  <i class="ti ti-arrow-up-right"></i></a>
+					  </li>
+					  <li>
+						  <a class="navigation__link flex" href="https://gobecentral.substack.com/">Newsletter
+						  <i class="ti ti-arrow-up-right"></i></a>
+					  </li>
+				  </ul>
+				</li>
+
+				<li class="navigation__item">
+					<a href="https://gobecentral.substack.com/p/coming-soon" class="navigation__link full-width">About</a>
+				</li>
+			</ul>
+		</nav>
+	</div>
+
 	<div class="content">
 		<!-- Hero -->
 		<div class="flex-col gap-72">
-			<div class="nav-bar flex-auto">
-				<img class="logo" src="assets/logo.svg" alt="">
-				<div class="nav-links flex gap-40">
-					<a class="flex link nav-link" href="dropdown">Resources
-						<i class="ti ti-chevron-down"></i>
-						<!-- 🟧 <ul class="dropdown" aria-label="submenu">
+			<nav class="nav-bar">
+				<a href="https://gobe.africa/"><img class="logo" src="assets/logo.svg" alt=""></a>
+
+				<ul class="nav-links">
+					<li class="menu">
+						<input type="checkbox" class="nav__checkbox" id="nav-toggle">
+						<label class="flex gap-4 nav-link" for="nav-toggle">Resources<i class="ti ti-chevron-down"></i></label>
+						<ul class="sub-menu" aria-label="submenu">
 						  	<li>
-								<a class="flex" href="#">Newsletter
+								<a class="link flex" href="community.html">Community
 								<i class="ti ti-arrow-up-right"></i></a>
-							</li> -->
+							</li>
+							<li>
+								<a class="link flex" href="https://gobecentral.substack.com/">Newsletter
+								<i class="ti ti-arrow-up-right"></i></a>
+							</li>
 						</ul>
-					</a>
-					<a class="link nav-link" href="substack">About</a>
-				</div>
-			</div>
+					</li>
+
+					<li>
+						<a class="flex link nav-link" href="https://gobecentral.substack.com/p/coming-soon">About</a>
+					</li>
+				</ul>
+			</nav>
 			
 			<div class="main-text text-light">
-				<h1>Collaborate, connect, and grow with education innovators in Africa</h1>
+				<h1>Building education solutions that transform how learning is done in Africa</h1>
 			</div>
 
 			<div class="offset abs">
 				<img src="assets/star.svg" alt="">
 			</div>
 
-			<div class="grid cols-2">
+			<div class="flex-auto">
 				<div class="brief">
-					<p>We are a community of exceptional thinkers and innovators from diverse backgrounds across Africa, working together to create change agents for education through education.</p>
+					<p>We come from diverse backgrounds across Africa, working together to provide a platform for structured conversations around how individuals should be learning in various stages of their development.<p>
 				</div>
 				<div class="bottom-left">
-					<a href="" class="primary-btn">
-						Read our story
+					<a href="https://gobecentral.substack.com/" class="primary-btn">
+						Join us
 						<i class="ti ti-arrow-up-right"></i>
 					</a>
 				</div>
@@ -105,7 +147,7 @@
 		<!-- Events -->
 		<div class="mt-72 events flex-col gap-24">
 			<h2 class="syne">Catch us at our next event</h2>
-			<a href="" class="secondary-btn">
+			<a href="https://www.instagram.com/gobehq_" class="secondary-btn">
 				Open Instagram
 				<i class="ti ti-arrow-up-right"></i>
 			</a>
@@ -131,7 +173,7 @@
 			</script>
 			<script src="https://substackapi.com/embeds/feed.js" async></script>
 
-			<a href="" class="mt-24 secondary-btn">
+			<a href="https://gobecentral.substack.com/archive?sort=top" class="mt-24 secondary-btn">
 				See more
 				<i class="ti ti-arrow-up-right"></i>
 			</a>
@@ -146,7 +188,7 @@
 		<!-- Subscribe -->
 		<div class="mt-72 subscribe flex-col gap-24">
 			<h2 class="mt-24">Stay in the loop</h2>
-			<p>Subscribe to our newsletter to receive the latest insights and expert opinions on education innovation. Curated by our team at <a class="link-purple" href="#">Gobe Central</a></p>
+			<p>Subscribe to our newsletter to receive the latest insights and expert opinions on education innovation. Curated by our team at <a class="link-purple" href="https://gobecentral.substack.com/">Gobe Central</a></p>
 			<div id="custom-substack-embed"></div>
 			<script>
 				window.CustomSubstackWidget = {
@@ -171,15 +213,15 @@
 			
 			<div class="flex-auto mt-24">
 				<div class="flex socials gap-24">
-					<a href="twt"><i class="ti ti-brand-x"></i></a>
-					<a href="twt"><i class="ti ti-brand-instagram"></i></a>
+					<a href="https://twitter.com/GoBeHQ"><i class="ti ti-brand-x"></i></a>
+					<a href="https://www.instagram.com/gobehq_"><i class="ti ti-brand-instagram"></i></a>
 					<a><i class="ti ti-brand-youtube-filled"></i></a>
 				</div>
 
 				<div class="flex legalese gap-12">
-					<a class="link-secondary" href="">Privacy Policy</a>
+					<a class="link-secondary" href="#">Privacy Policy</a>
 					•
-					<a class="link-secondary" href="">Code of conduct</a>
+					<a class="link-secondary" href="#">Code of conduct</a>
 				</div>
 			</div>
 

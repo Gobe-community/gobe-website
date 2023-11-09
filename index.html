@@ -71,14 +71,24 @@
 		<nav class="navigation__nav">
 			<ul class="navigation__list">
 
-				<li class="navigation__item">
-					<a href="about.html" class="navigation__link">
-						Resources
-					</a> <!-- Insert ul li submenu here -->
+				<li class="navigation__item dropdown">
+					<input type="checkbox" class="dropdown__checkbox" id="dropdown-toggle">
+					<label for="dropdown-toggle" class=" flex">Resources<i class="ti ti-chevron-down"></i></label>
+					<!-- Insert ul li submenu here -->
+					<ul class="sub-menu" aria-label="submenu">
+						<li>
+						  <a class="navigation__link flex" href="community.html">Community
+						  <i class="ti ti-arrow-up-right"></i></a>
+					  </li>
+					  <li>
+						  <a class="navigation__link flex" href="https://gobecentral.substack.com/">Newsletter
+						  <i class="ti ti-arrow-up-right"></i></a>
+					  </li>
+				  </ul>
 				</li>
 
 				<li class="navigation__item">
-					<a href="https://gobecentral.substack.com/p/coming-soon" class="navigation__link">About</a>
+					<a href="https://gobecentral.substack.com/p/coming-soon" class="navigation__link full-width">About</a>
 				</li>
 			</ul>
 		</nav>
@@ -88,29 +98,28 @@
 		<!-- Hero -->
 		<div class="flex-col gap-72">
 			<nav class="nav-bar">
-				<img class="logo" src="assets/logo.svg" alt="">
+				<a href="https://gobe.africa/"><img class="logo" src="assets/logo.svg" alt=""></a>
 
-				<!-- <ul class="nav-links flex gap-40">
-					<label for="drop" class="flex gap-12 toggle">Menu &#9776; &#12584;</i></label>
-					<li>
-						<a class="dropdown flex link nav-link" href="#">Resources
-						<i class="ti ti-chevron-down"></i>
+				<ul class="nav-links">
+					<li class="menu">
+						<input type="checkbox" class="nav__checkbox" id="nav-toggle">
+						<label class="flex gap-4 nav-link" for="nav-toggle">Resources<i class="ti ti-chevron-down"></i></label>
 						<ul class="sub-menu" aria-label="submenu">
 						  	<li>
-								<a class="flex" href="community.html">Community
+								<a class="link flex" href="community.html">Community
 								<i class="ti ti-arrow-up-right"></i></a>
 							</li>
 							<li>
-								<a class="flex" href="https://gobecentral.substack.com/">Newsletter
+								<a class="link flex" href="https://gobecentral.substack.com/">Newsletter
 								<i class="ti ti-arrow-up-right"></i></a>
 							</li>
-						</ul></a>
+						</ul>
 					</li>
 
 					<li>
-						<a class="link nav-link" href="https://gobecentral.substack.com/p/coming-soon">About</a>
+						<a class="flex link nav-link" href="https://gobecentral.substack.com/p/coming-soon">About</a>
 					</li>
-				</ul> -->
+				</ul>
 			</nav>
 			
 			<div class="main-text text-light">
@@ -123,7 +132,7 @@
 
 			<div class="flex-auto">
 				<div class="brief">
-					<p>We are a community of exceptional thinkers and innovators from diverse backgrounds across Africa, working together to create change agents for education through education.</p>
+					<p>We are a community of exceptional thinkers developing talent, technology and processes as the building blocks for education systems that meet the requirements of today's learners.</p>
 				</div>
 				<div class="bottom-left">
 					<a href="https://gobecentral.substack.com/p/coming-soon" class="primary-btn">
@@ -137,35 +146,9 @@
 
 		<!-- Events -->
 		<div class="mt-72 events flex-col gap-24">
-			<h2 class="syne">Catch us at our next event</h2>
+			<h2 class="syne">Join the conversation!</h2>
 			<a href="https://www.instagram.com/gobehq_" class="secondary-btn">
-				Open Instagram
-				<i class="ti ti-arrow-up-right"></i>
-			</a>
-		</div>
-
-		<!-- Blog -->
-		<div class="mt-72 recents">
-			<h2>Recent Posts</h2>
-
-			<div class="mt-24 bg-white" id="substack-feed-embed"></div>
-			<script>
-				window.SubstackFeedWidget = {
-					substackUrl: "gobecentral.substack.com",
-					posts: 3,
-					layout: "center",
-					hidden: ["author", "premium", "image"],
-					colors: {
-					primary: "#404040",
-					secondary: "#808080",
-					background: "#FFFFFF00",
-					}
-				};
-			</script>
-			<script src="https://substackapi.com/embeds/feed.js" async></script>
-
-			<a href="https://gobecentral.substack.com/archive?sort=top" class="mt-24 secondary-btn">
-				See more
+				Follow us
 				<i class="ti ti-arrow-up-right"></i>
 			</a>
 		</div>
